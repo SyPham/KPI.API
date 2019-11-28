@@ -1,0 +1,13 @@
+C:\Users\sy.pham\source\repos\API\Data\bin\Debug\netcoreapp3.0\Models.dll
+C:\Users\sy.pham\source\repos\API\Data\obj\Debug\netcoreapp3.0\Data.csprojAssemblyReference.cache
+C:\Users\sy.pham\source\repos\API\Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfoInputs.cache
+C:\Users\sy.pham\source\repos\API\Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfo.cs
+C:\Users\sy.pham\source\repos\API\Data\bin\Debug\netcoreapp3.0\Data.deps.json
+C:\Users\sy.pham\source\repos\API\Data\bin\Debug\netcoreapp3.0\Data.dll
+C:\Users\sy.pham\source\repos\API\Data\bin\Debug\netcoreapp3.0\Models.pdb
+C:\Users\sy.pham\source\repos\API\Data\obj\Debug\netcoreapp3.0\Data.csproj.CopyComplete
+C:\Users\sy.pham\source\repos\API\Data\bin\Debug\netcoreapp3.0\Data.pdb
+C:\Users\sy.pham\source\repos\API\Data\obj\Debug\netcoreapp3.0\Data.dll
+C:\Users\sy.pham\source\repos\API\Data\obj\Debug\netcoreapp3.0\Data.pdb
+C:\Users\sy.pham\source\repos\API\Data\bin\Debug\netcoreapp3.0\Data.runtimeconfig.json
+C:\Users\sy.pham\source\repos\API\Data\bin\Debug\netcoreapp3.0\Data.runtimeconfig.dev.json
