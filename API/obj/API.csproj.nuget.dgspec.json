@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sy.pham\\source\\repos\\API\\api\\API.csproj": {}
+    "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sy.pham\\source\\repos\\API\\api\\API.csproj": {
+    "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\API\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\sy.pham\\source\\repos\\API\\api\\API.csproj",
+        "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sy.pham\\source\\repos\\API\\api\\obj\\",
+        "outputPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\Data.csproj"
+              "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj"
+              },
+              "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Service\\Service.csproj"
               }
             }
           }
@@ -51,7 +54,7 @@
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.1.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -74,6 +77,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [
@@ -98,14 +109,14 @@
         }
       }
     },
-    "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\Data.csproj": {
+    "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\obj\\",
+        "outputPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -124,8 +135,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj"
+              "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj"
               }
             }
           }
@@ -193,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj": {
+    "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\obj\\",
+        "outputPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -233,6 +244,74 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sy.pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj"
+              },
+              "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

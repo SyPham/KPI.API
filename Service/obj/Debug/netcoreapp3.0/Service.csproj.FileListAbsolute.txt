@@ -1,0 +1,8 @@
+C:\Users\sy.pham\source\repos\KPI\API\Service\bin\Debug\netcoreapp3.0\Service.deps.json
+C:\Users\sy.pham\source\repos\KPI\API\Service\bin\Debug\netcoreapp3.0\Service.dll
+C:\Users\sy.pham\source\repos\KPI\API\Service\bin\Debug\netcoreapp3.0\Service.pdb
+C:\Users\sy.pham\source\repos\KPI\API\Service\obj\Debug\netcoreapp3.0\Service.csprojAssemblyReference.cache
+C:\Users\sy.pham\source\repos\KPI\API\Service\obj\Debug\netcoreapp3.0\Service.AssemblyInfoInputs.cache
+C:\Users\sy.pham\source\repos\KPI\API\Service\obj\Debug\netcoreapp3.0\Service.AssemblyInfo.cs
+C:\Users\sy.pham\source\repos\KPI\API\Service\obj\Debug\netcoreapp3.0\Service.dll
+C:\Users\sy.pham\source\repos\KPI\API\Service\obj\Debug\netcoreapp3.0\Service.pdb

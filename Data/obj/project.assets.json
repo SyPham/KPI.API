@@ -5322,11 +5322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Data\\obj\\",
+      "outputPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5345,8 +5345,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj"
+            "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\API\\Models\\Models.csproj"
             }
           }
         }

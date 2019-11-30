@@ -360,11 +360,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\sy.pham\\source\\repos\\KPI\\api\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\Models.csproj",
+      "projectPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\api\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\sy.pham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sy.pham\\source\\repos\\API\\Models\\obj\\",
+      "outputPath": "C:\\Users\\sy.pham\\source\\repos\\KPI\\api\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

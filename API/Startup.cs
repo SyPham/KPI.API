@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using API.Data;
 using API.Helpers;
 using API.Models;
+using Data.Interface;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -21,6 +22,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using AutoMapper;
+using API.Data.Interface;
+using Data;
+using Data.Implementation;
+
 namespace API
 {
     public class Startup
@@ -98,10 +103,11 @@ namespace API
                .AddJsonOptions(options => options.JsonSerializerOptions.PropertyNameCaseInsensitive = true);
             services.AddCors();
             services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
-            services.AddAutoMapper(typeof(Repository).Assembly);
+            //services.AddAutoMapper(typeof(Repository).Assembly);
             services.AddTransient<Seed>();
             services.AddScoped<IAuthRepository, AuthRepository>();
-            services.AddScoped<IRepository, Repository>();
+            services.AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork));
+            services.AddTransient(typeof(IRepository<,>), typeof(Repository<,>));
             services.AddScoped<LogUserActivity>();
         }
 
